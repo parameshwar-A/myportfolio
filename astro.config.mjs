@@ -23,10 +23,6 @@ const prettyCodeOptions = {
 export default defineConfig({
   site: CONFIG.site.url,
   base: '/myportfolio',
-  output: 'server',
-
-  adapter: cloudflare(),
-
   vite: {
     plugins: [tailwindcss()],
   },
